@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Respuesta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Calcular Volumen de Agua m3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060606" />
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="366dp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/medidas" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/imgLogin"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060606"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView2"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="188dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060606"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView3"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="188dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060606"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView4"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="188dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060606"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView6"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="188dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060606"/>
+
+    <TextView
+        android:id="@+id/textAncho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:id="@+id/textAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAncho"
+        android:layout_alignEnd="@+id/imgLogin"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="3dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textLargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="212dp"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</RelativeLayout>
