@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         btnSubmit = (Button)findViewById(R.id.button);
         btnSubmit.setOnClickListener(this);
+
+        // Verificar actualización al iniciar
+        UpdateChecker.checkForUpdate(this);
     }
 
 
